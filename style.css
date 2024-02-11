@@ -1,0 +1,169 @@
+/*------------
+  All
+--------------*/
+html {
+	scroll-behavior: smooth;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	color: #222;
+	margin-bottom: 0px;
+}
+section {
+	padding-top: 15px;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: bottom;
+}
+
+/*------------
+  Header
+--------------*/
+header {
+	max-width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2%;
+	text-align: center;
+}
+h1 {
+	font-size: x-large;
+	line-height: 1.2em;
+	text-shadow: 2px 2px 3px rgba(255, 0, 0, 0.69);
+}
+
+/*------------
+  Main
+--------------*/
+main {
+	max-width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.top-img {
+	border: 1.5px solid #4b4b4b;
+	margin-bottom: 50px;
+	padding: 2px;
+}
+
+.large_txt {
+	font-size: large;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 24px;
+	margin-top: 24px;
+}
+.yokonarabi {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 48px;
+}
+.yokonarabi li {
+	list-style: none;
+	max-width: 32%;
+	font-size: large;
+	font-weight: bold;
+	text-align: center;
+}
+.yokonarabi li img {
+	border: 1px solid #4b4b4b;
+	padding: 2px;
+	box-shadow: 4px 4px 8px #5e676ad9;
+	border-radius: 2px;
+}
+
+figcaption {
+	margin-top: 20px;
+}
+figcaption a {
+	text-decoration: none;
+	color: #222;
+	/* transition: 0.5s;
+	padding: 5px;
+	padding-inline: 15px;
+	border: 1px solid #4b4b4b;
+	box-shadow: 3px 3px 7px #5e676ad9;
+	border-radius: 2px; */
+}
+
+/* figcaption a:hover {
+	background-color: #fdfdfd;
+	color: #4b4b4b;
+	font-size: 17.5px;
+	border: 1px solid #4b4b4b;
+	transition: 0.5s;
+	border-radius: 2px;
+	box-shadow: none;
+} */
+
+figure a img:hover {
+	transform: scale(0.95);
+	transition-duration: 0.5s;
+	box-shadow: none;
+	border: 1px solid #4b4b4b;
+	padding: 2px;
+	border-radius: 2px;
+}
+figure a img {
+	transition-duration: 0.5s;
+}
+
+h3 {
+	font-size: x-large;
+	text-align: center;
+	border-top: solid 2px #4b4b4b;
+	border-bottom: solid 2px #4b4b4b;
+	margin-bottom: 15px;
+	color: #4b4b4b;
+	margin-top: 15px;
+}
+.yohaku {
+	margin-bottom: 50px;
+	margin-top: 20px;
+	text-align: center;
+}
+.reason-img {
+	block-size: 0%;
+	margin: auto;
+	max-width: 100%;
+	width: fit-content;
+	margin-bottom: 12px;
+
+	padding: 2px;
+	border: 1px solid #4b4b4b;
+}
+
+.btn {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	max-width: 200px;
+	margin: auto;
+	padding: 1rem 4rem;
+	font-weight: bold;
+	border: 2px solid #27acd9;
+	background: #27acd9;
+	color: #fff;
+	border-radius: 100vh;
+	transition: 0.5s;
+	margin-bottom: 48px;
+}
+
+.btn:hover {
+	color: #27acd9;
+	background: #fff;
+}
+
+/*------------
+  Footer
+--------------*/
+footer {
+	max-width: 100%;
+	padding: 10%;
+	font-weight: bold;
+	text-align: center;
+	background-color: #ffeb3a;
+}
